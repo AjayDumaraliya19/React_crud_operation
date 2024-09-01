@@ -1,0 +1,22 @@
+.align-center {
+  align-items: center;
+}
+
+.range-slider {
+  appearance: none;
+  width: 90%;
+  height: 10px;
+  border-radius: 10px;
+  background: #eab308;
+  outline: none;
+  transition: all 0.3 ease-in-out;
+}
+
+.range-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  background: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+}
